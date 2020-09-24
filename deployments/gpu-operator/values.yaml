@@ -55,7 +55,7 @@ operator:
           preference:
             matchExpressions:
               - key: "node-role.kubernetes.io/master"
-                operator: In
+                operator: NotIn
                 values: [""]
 
 driver:
